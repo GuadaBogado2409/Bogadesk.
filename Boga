@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="¡Diseños Digitales VIRALES por SOLO $5! 🔥">
+    <meta property="og:description" content="¡Transforma tu muro con diseños que EXPLOTAN en viralidad! Compra ahora y sé el rey de Facebook. ¡No te quedes atrás!">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/ff0000/ffffff?text=VIRAL+DESIGNS+$5">
+    <meta property="og:url" content="https://tu-sitio-web.com">
+    <title>¡Diseños VIRALES por $5! 🔥</title>
+    <style>
+        body {
+            font-family: 'Arial Black', sans-serif;
+            background: linear-gradient(45deg, #ff0000, #ff6600, #ffff00, #00ff00, #0000ff, #6600ff);
+            background-size: 400% 400%;
+            animation: rainbow 3s ease infinite;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+        @keyframes rainbow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px #000;
+            animation: bounce 1s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        .cta-button {
+            background: #ff0000;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            cursor: pointer;
+            border-radius: 50px;
+            box-shadow: 0 0 20px #ff0000;
+            animation: pulse 1s infinite;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 20px #ff0000; }
+            50% { box-shadow: 0 0 40px #ff0000; }
+            100% { box-shadow: 0 0 20px #ff0000; }
+        }
+        .cta-button:hover {
+            background: #cc0000;
+            transform: scale(1.1);
+        }
+        .disruptive-text {
+            font-size: 2em;
+            color: #ffff00;
+            text-transform: uppercase;
+            animation: flash 0.5s infinite alternate;
+        }
+        @keyframes flash {
+            0% { opacity: 1; }
+            100% { opacity: 0.5; }
+        }
+        .share-button {
+            margin-top: 20px;
+        }
+        .share-button a {
+            background: #4267B2;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+        .share-button a:hover {
+            background: #365899;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡BOOM! Diseños Digitales VIRALES por SOLO $5 🔥</h1>
+    <p class="disruptive-text">¡ATENCIÓN! Tu muro se va a VOLAR con estos diseños que HACEN VIRALES a los perfiles. ¡No seas el último en enterarte!</p>
+    <p>Imagina: Subes un diseño, ¡y explota en likes, shares y comentarios! Diseños únicos para memes, posts épicos y más. ¡Por solo 5 dólares, transforma tu presencia en Facebook!</p>
+    <p>¿Listo para ser el VIRAL KING? ¡Compra ahora y ve cómo tu muro se llena de atención!</p>
+    <a href="https://tu-enlace-de-compra.com" class="cta-button">¡COMPRAR AHORA POR $5!</a>
+    <div class="share-button">
+        <p>¡Comparte y viraliza!</p>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://tu-sitio-web.com" target="_blank">Compartir en Facebook</a>
+        <a href="https://twitter.com/intent/tweet?text=¡Diseños%20VIRALES%20por%20$5!%20https://tu-sitio-web.com" target="_blank">Compartir en Twitter</a>
+    </div>
+    <script>
+        // Animación disruptiva: Hace que el texto parpadee y cambie colores
+        setInterval(() => {
+            const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00'];
+            document.querySelector('.disruptive-text').style.color = colors[Math.floor(Math.random() * colors.length)];
+        }, 500);
+    </script>
+</body>
+</html>
